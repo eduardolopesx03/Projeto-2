@@ -1,0 +1,14 @@
+<div class="container mt-5 mb-5">
+    <h1 class="text-center"> Comidas Favoritas </h1> <!-- Título da seção de comidas favoritas -->
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let fd of foodData"> <!-- Loop para exibir cada comida a partir da lista foodData -->
+            <div class="foodbox"> <!-- Caixa que contém os detalhes de cada comida -->
+                <img src="{{fd.foodImg}}" /> <!-- Imagem da comida -->
+                <h1>{{fd.foodName}}</h1> <!-- Nome da comida -->
+                <p>{{fd.foodDetails}}</p> <!-- Detalhes adicionais da comida -->
+                <p>{{fd.foodPrice | currency:'BRL'}}</p> <!-- Preço da comida formatado como moeda brasileira -->
+                <a class="btn_pedido" [routerLink]="['/menu',fd.id]">Fazer Pedido <i class="bi bi-bag-fill"></i></a> <!-- Botão para fazer pedido, que redireciona para a página de menu com o ID da comida -->
+            </div>
+        </div>
+    </div>
+</div>

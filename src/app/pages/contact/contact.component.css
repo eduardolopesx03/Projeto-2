@@ -1,0 +1,59 @@
+.container {
+    background-color: #f9f9f9; /* Cor de fundo da caixa */
+    padding: 40px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+    margin: 20px auto; /* Margem superior/inferior de 20px e centraliza horizontalmente */
+    max-width: 800px; /* Largura máxima da caixa */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    color: #333; /* Cor do título */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    font-family: 'Arial', sans-serif; /* Família da fonte */
+}
+
+p {
+    font-size: 1.1em; /* Tamanho da fonte do parágrafo */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    color: #555; /* Cor do texto do parágrafo */
+    text-align: justify; /* Justifica o texto */
+    font-family: 'Verdana', sans-serif; /* Família da fonte */
+}
+
+form {
+    margin-top: 20px; /* Espaço acima do formulário */
+}
+
+.form-control {
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno dos campos */
+    font-size: 1em; /* Tamanho da fonte */
+    width: 100%; /* Para garantir que ocupe toda a largura disponível */
+    margin-bottom: 15px; /* Espaço entre os campos */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra ao focar */
+}
+
+.btn1 {
+    background-color: #28a745; /* Cor do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remove borda */
+    padding: 10px 20px; /* Espaço interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 1em; /* Tamanho da fonte */
+}
+
+.btn:hover {
+    background-color: #218838; /* Cor do botão ao passar o mouse */
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado de links */
+}

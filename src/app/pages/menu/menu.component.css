@@ -1,0 +1,26 @@
+.foodbox {
+    padding: 10px 5px; /* Espaçamento interno da caixa de comida */
+}
+
+.foodbox img {
+    width: 100%; /* Imagem ocupa toda a largura da caixa */
+    height: 250px; /* Altura fixa da imagem */
+    object-fit: cover; /* A imagem será recortada para preencher o espaço */
+    border-radius: 5px; /* Bordas arredondadas da imagem */
+}
+
+.foodbox h1 {
+    font-size: 18px; /* Tamanho da fonte do nome da comida */
+    margin-top: 20px; /* Margem superior para espaçamento acima do título */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.btn_pedido {
+    color: rgb(234, 187, 98); /* Cor do texto do botão */
+    background-color: rgb(82, 82, 219); /* Cor de fundo do botão */
+    padding: 10px 10px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remove sublinhado do texto do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}

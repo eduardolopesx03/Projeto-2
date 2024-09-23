@@ -1,0 +1,25 @@
+<div class="container mt-5 mb-5"> <!-- Container principal com margens superior e inferior -->
+    <div class="row"> <!-- Início da linha para layout responsivo -->
+        <div class="col-lg-6" *ngIf="menuData"> <!-- Coluna para detalhes do menu, visível se menuData existir -->
+            <a routerLink="../../menu" class="btn btn-sm btn-warning mb-5 voltar-btn"> <!-- Botão para voltar ao menu -->
+                <i class="bi bi-arrow-left"></i> Voltar 
+            </a>
+            
+            <img src="{{menuData[0].foodImg}}" width="100%"/> <!-- Imagem do prato -->
+            <h1 class="nomePrato">{{menuData[0].foodName}}</h1> <!-- Nome do prato -->
+            <p class="comidaDetalhes">{{menuData[0].foodDetails}}</p> <!-- Detalhes do prato -->
+            <p class="comidaPreco">{{menuData[0].foodPrice | currency:'BRL'}}</p> <!-- Preço do prato formatado como moeda -->
+        </div>
+        <div class="col-lg-6"> <!-- Coluna para detalhes do cliente -->
+            <h1 class="text-center">Detalhes do cliente</h1> <!-- Título centralizado -->
+            <form action=""> <!-- Formulário para capturar detalhes do cliente -->
+                <input type="text" class="form-control" placeholder="Digite seu nome completo"/> <!-- Campo para nome completo -->
+                <input type="text" class="form-control" placeholder="Digite seu telefone"/> <!-- Campo para telefone -->
+                <textarea class="form-control" placeholder="Digite seu endereço ou local da entrega"></textarea> <!-- Campo para endereço -->
+                <div class="text-center"> <!-- Wrapper para centralizar o botão -->
+                    <button mat-button class="custom-button">Fazer Pedido</button> <!-- Botão para fazer o pedido -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

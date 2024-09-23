@@ -1,0 +1,119 @@
+.container {
+    background-color: #f8f9fa; /* Fundo suave */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 40px; /* Espaçamento interno */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    font-family: 'Arial', sans-serif; /* Fonte limpa */
+    color: #333; /* Cor do texto */
+    margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+p {
+    color: #555; /* Texto em cinza mais claro */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+.btn {
+    border-radius: 25px; /* Botões com cantos arredondados */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    width: auto; /* Ajuste a largura do botão */
+}
+
+.btn-warning {
+    background-color: #ffc107; /* Cor de fundo do botão de voltar */
+    border: none; /* Remove borda */
+}
+
+.btn-warning:hover {
+    background-color: #e0a800; /* Cor ao passar o mouse */
+}
+
+.btn-success {
+    background-color: #28a745; /* Cor de fundo do botão de fazer pedido */
+    border: none; /* Remove borda */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Cor ao passar o mouse */
+}
+
+input, textarea {
+    border-radius: 4px; /* Cantos arredondados para campos de entrada */
+    border: 1px solid #ced4da; /* Borda cinza clara */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+    width: 100%; /* Largura total do campo */
+}
+
+textarea {
+    height: 100px; /* Altura fixa para o textarea */
+    resize: none; /* Remove a capacidade de redimensionamento */
+}
+
+img {
+    border-radius: 8px; /* Cantos arredondados na imagem */
+    padding: 10px 0; /* Espaçamento acima e abaixo da imagem */
+    height: auto; /* Altura automática da imagem */
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+.nomePrato, .comidaDetalhes, .comidaPreco {
+    text-align: center; /* Centraliza o texto */
+    margin: 10px 0; /* Espaçamento vertical entre os elementos */
+}
+
+.nomePrato {
+    font-size: 24px; /* Tamanho da fonte para o nome do prato */
+    font-weight: bold; /* Negrito para o nome do prato */
+    color: #333; /* Cor do texto do nome do prato */
+}
+
+.comidaDetalhes {
+    font-size: 16px; /* Tamanho da fonte para detalhes da comida */
+    color: #555; /* Cor do texto para detalhes */
+}
+
+.comidaPreco {
+    font-size: 18px; /* Tamanho da fonte para o preço */
+    color: #28a745; /* Cor verde para o preço */
+    font-weight: bold; /* Negrito para o preço */
+}
+
+.col-lg-6 {
+    display: flex; /* Usando flexbox para layout */
+    flex-direction: column; /* Alinha os itens verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+form {
+    margin-top: 30px; /* Espaço maior acima do formulário */
+}
+
+h1.text-center {
+    margin-top: 20px; /* Espaço acima do título do formulário */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.text-center {
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.voltar-btn {
+    width: 100px; /* Largura fixa do botão voltar */
+    display: inline-block; /* Exibição em linha para permitir margens */
+    border-radius: 8px; /* Cantos arredondados */
+}
+
+.custom-button {
+    background-color: #28a745; /* Cor de fundo desejada para o botão personalizado */
+    color: white; /* Cor do texto do botão */
+    border-radius: 25px; /* Cantos arredondados */
+    width: 150px; /* Largura fixa do botão personalizado */
+}
+
+.custom-button:hover {
+    background-color: #218838; /* Cor de fundo ao passar o mouse para o botão personalizado */
+}

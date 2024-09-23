@@ -1,0 +1,41 @@
+.container {
+    max-width: 800px; /* Define uma largura máxima para o container, mantendo-o responsivo */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #ffffff; /* Define a cor de fundo como branca */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave para criar profundidade */
+    border-radius: 10px; /* Arredonda os cantos do container */
+}
+
+h1 {
+    font-size: 2.5rem; /* Define um tamanho de fonte grande para o título */
+    font-weight: bold; /* Aplica negrito ao título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    color: #333333; /* Define a cor do texto do título */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    letter-spacing: 2px; /* Aumenta o espaçamento entre as letras */
+}
+
+p {
+    font-size: 1.2rem; /* Define um tamanho de fonte legível para os parágrafos */
+    line-height: 1.8; /* Melhora a legibilidade ao aumentar o espaçamento entre linhas */
+    color: #555555; /* Define uma cor de texto cinza mais claro */
+    margin-bottom: 20px; /* Espaçamento abaixo dos parágrafos */
+    text-align: justify; /* Justifica o texto, dando uma aparência limpa */
+}
+
+p br {
+    margin-bottom: 10px; /* Adiciona espaçamento abaixo de quebras de linha */
+}
+
+.text-center {
+    text-align: center; /* Centraliza o texto em qualquer elemento com esta classe */
+}
+
+.mt-5 {
+    margin-top: 3rem; /* Adiciona uma margem superior de 3 rem */
+}
+
+.mb-5 {
+    margin-bottom: 3rem; /* Adiciona uma margem inferior de 3 rem */
+}
