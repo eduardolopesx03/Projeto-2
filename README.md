@@ -39,4 +39,3 @@ Exploração do Angular Material: Como este é o meu primeiro projeto utilizando
 Integração com JSON Server: Inicialmente, configurei o JSON Server para simular uma API e realizar requisições, mas enfrentei alguns erros durante a implementação. Planejo criar um novo branch para dar continuidade a este projeto, integrando de forma eficaz a API dos pratos via JSON Server.
 
 Aprimoramento da Experiência do Usuário: Continuarei a buscar maneiras de tornar a aplicação mais intuitiva e amigável, incorporando feedbacks de usuários e outras práticas recomendadas.
->>>>>>> 5e1c6de52857ab1a3c93e50fa7c05ab59f1defc6
